@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)](https://travis-ci.org/meolu/walle-web)
 
+**使用简单，比自定义View的成本要低**
+
+**非图片类型的Drawable占用空间较小，这对减小apk的大小有帮助**
+
 1. BitmapDrawable
 
 2. ShapeDrawable
