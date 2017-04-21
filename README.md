@@ -36,12 +36,6 @@
 
 - anim 目录下
 
-- arrays 目录下
-
-- attrs 目录下
-
-- sw600dp后缀什么意思？
-
 # 特点
 
 # CHANGELOG
