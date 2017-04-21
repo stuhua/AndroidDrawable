@@ -27,6 +27,9 @@
 9. ClipDrawable
 > 不常使用
 
+**sw600dp后缀**
+![](./pic/1.png)
+
 # 演示
 
 # TODO
