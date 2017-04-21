@@ -19,10 +19,13 @@
 6. TransitionDrawable
 
 7. InsetDrawable
+> 不常使用
 
 8. ScaleDrawable
+> 不常使用
 
 9. ClipDrawable
+> 不常使用
 
 # 演示
 
