@@ -31,7 +31,11 @@
 ![](./pic/1.png)
 
 **Attr、Style和Theme详解**
+- Attr：属性，风格样式的最小单元
 
+- Style：风格，它是一系列Attr的集合用以定义一个View的样式，比如height、width、padding等
+
+- Theme：主题，它与Style作用一样，不同于Style作用于个一个单独View，而它是作用于Activity上或是整个应用
 # 演示
 
 # TODO
