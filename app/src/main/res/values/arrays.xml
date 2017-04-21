@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string-array name="arry">
-        <item>GMT+08:00</item>
+    <string-array name="time_zone_name">
+        <item>中国标准时间（北京）</item>
+        <item>新西兰夏令时</item>
+        <item>新西兰标准时间</item>
+        <item>澳大利亚东部夏时制</item>
+        <item>中澳大利亚标准时间</item>
     </string-array>
-
-
 </resources>

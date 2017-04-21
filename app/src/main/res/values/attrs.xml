@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <declare-styleable name="Topbar">
+        <attr name="title" format="string" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextColor" format="color" />
 
-    <declare-styleable name="VerticalSeekBar">
-        <attr name="seekBarRotation">
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftBackground" format="color|reference" />
+        <attr name="leftText" format="string" />
 
-            <!-- Clock wise - 90 deg; top = min, bottom = max -->
-            <enum name="CW90" value="90" />
-            <!-- Clock wise - 270 deg; bottom = min, top = max -->
-            <enum name="CW270" value="270" />
-        </attr>
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightBackground" format="color|reference" />
+        <attr name="rightText" format="string" />
+
     </declare-styleable>
-
 </resources>

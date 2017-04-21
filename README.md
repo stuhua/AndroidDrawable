@@ -37,8 +37,6 @@
 
 - attrs 目录下
 
-- Theme和style的区别
-
 - sw600dp后缀什么意思？
 
 # 特点
