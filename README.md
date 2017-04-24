@@ -42,6 +42,8 @@
 
 - anim 目录下
 
+- 自定义View的三个构造函数
+
 # 特点
 
 # CHANGELOG
