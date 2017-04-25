@@ -32,8 +32,14 @@ public class MyLLayout extends LinearLayout {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 
-
     @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        LogUtils.print("(event.getAction()=" + event.getAction());
+        return super.onTouchEvent(event);
+    }
+
+
+ @Override
     public boolean onInterceptTouchEvent(MotionEvent event) {
         boolean intercepted = false;
         int x = (int) event.getX();
@@ -70,10 +76,12 @@ public class MyLLayout extends LinearLayout {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        final int childCount = getChildCount();
+        LogUtils.print("childCount="+childCount);
         int widthMeasureSpecMode = MeasureSpec.getMode(widthMeasureSpec);
         int heightMeasureSpecMode = MeasureSpec.getMode(heightMeasureSpec);
-        Logger.d("widthMeasureSpecMode=" + widthMeasureSpecMode);
-        Logger.d("heightMeasureSpecMode=" + heightMeasureSpecMode);
+//        Logger.d("widthMeasureSpecMode=" + widthMeasureSpecMode);
+//        Logger.d("heightMeasureSpecMode=" + heightMeasureSpecMode);
         if (widthMeasureSpecMode == MeasureSpec.AT_MOST) {
             setMeasuredDimension(200, 200);
         }
