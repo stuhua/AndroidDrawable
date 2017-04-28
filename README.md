@@ -53,7 +53,7 @@
 
 - anim 目录下
 
-- 四大组件的工作过程
+- binder,binder,binder
 
 # 特点
 
