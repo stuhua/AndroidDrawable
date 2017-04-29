@@ -55,6 +55,8 @@
 
 - binder,binder,binder
 
+- inflater4个函数
+
 # 特点
 
 # CHANGELOG
