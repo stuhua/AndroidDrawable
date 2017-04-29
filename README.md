@@ -59,6 +59,7 @@
 
 # CHANGELOG
 [---](http://www.jianshu.com/p/dd79220b47dd)
+[2](http://www.jianshu.com/p/164e3ed1bc9f)
 
 
 
