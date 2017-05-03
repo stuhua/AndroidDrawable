@@ -57,6 +57,8 @@
 
 - inflater4个函数
 
+-ContentOBserver ContentObserveable
+
 # 特点
 
 # CHANGELOG
