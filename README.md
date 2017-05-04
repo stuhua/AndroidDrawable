@@ -57,7 +57,13 @@
 
 - inflater4个函数
 
--ContentOBserver ContentObserveable
+- ContentOBserver ContentObserveable
+
+- Android6.0采坑之旅
+
+1. 设置时区 ，ID不同了
+2. WIfI从数据库里获取不一样？
+3. 也是无聊
 
 # 特点
 
