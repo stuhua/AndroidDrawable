@@ -1,4 +1,4 @@
-package io.stuhua.androiddrawable;
+package io.stuhua.androiddrawable.util;
 
 import android.os.Environment;
 import android.text.TextUtils;

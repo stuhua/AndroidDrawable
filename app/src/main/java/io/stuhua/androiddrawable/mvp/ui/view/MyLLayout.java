@@ -1,4 +1,4 @@
-package io.stuhua.androiddrawable;
+package io.stuhua.androiddrawable.mvp.ui.view;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
@@ -7,6 +7,8 @@ import android.view.MotionEvent;
 import android.widget.LinearLayout;
 
 import com.orhanobut.logger.Logger;
+
+import io.stuhua.androiddrawable.util.LogUtils;
 
 /**
  * Created by liulh on 2017/4/24.

@@ -1,4 +1,4 @@
-package io.stuhua.androiddrawable;
+package io.stuhua.androiddrawable.mvp.ui;
 
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.orhanobut.logger.Logger;
+
+import io.stuhua.androiddrawable.R;
 
 public class MainActivity extends AppCompatActivity {
 
