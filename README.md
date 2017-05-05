@@ -28,7 +28,7 @@
 > 不常使用
 
 **sw600dp后缀**
-![](./pic/1.png)
+![](pic/屏幕尺寸限定符.png)
 
 **Attr、Style和Theme详解**
 - Attr：属性，风格样式的最小单元
