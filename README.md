@@ -43,7 +43,7 @@
      第二个用于layout文件实例化，会把XML内的参数通过AttributeSet带入到View内。
      第三个主题的style信息，也会从XML里带入
      现在还有第四个参数了…以后可能还会有更多
-     
+
      一般继承View类，知晓熟悉使用前两个方法即可，后面的都很少用到。
 </pre>
 
@@ -73,11 +73,13 @@
 
 - 按返回键的时候，进程会杀死吗？ 任务栈又是怎样呢？
 
+- 一个应用start 另外一个应用的activity时，如果该activity需要上一个activity来初始化，会怎么样？
+
 # 特点
 
 # CHANGELOG
-[---](http://www.jianshu.com/p/dd79220b47dd)
-[2](http://www.jianshu.com/p/164e3ed1bc9f)
+[Attr、Style和Theme详解](http://www.jianshu.com/p/dd79220b47dd)
+[inflater 参数问题](http://www.jianshu.com/p/164e3ed1bc9f)
 
 
 
