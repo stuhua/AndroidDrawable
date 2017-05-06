@@ -80,6 +80,7 @@
 # CHANGELOG
 [Attr、Style和Theme详解](http://www.jianshu.com/p/dd79220b47dd)
 [inflater 参数问题](http://www.jianshu.com/p/164e3ed1bc9f)
+[Android 技巧](https://github.com/AndroidPreView/AndroidNote/blob/master/blog/Android%E5%BC%80%E5%8F%91%E5%BD%95/Android-%E6%8A%80%E5%B7%A7.md)
 
 
 
