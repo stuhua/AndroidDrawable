@@ -75,6 +75,8 @@
 
 - 一个应用start 另外一个应用的activity时，如果该activity需要上一个activity来初始化，会怎么样？
 
+**周一见**
+
 # 特点
 
 # CHANGELOG
