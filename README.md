@@ -55,8 +55,6 @@
 
 - binder,binder,binder
 
-- inflater4个函数
-
 - ContentOBserver ContentObserveable
 
 - Android6.0采坑之旅
