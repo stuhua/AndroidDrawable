@@ -55,7 +55,7 @@
 
 - binder,binder,binder
 
-- ContentOBserver ContentObserveable
+- ContentObserver， ContentObserveable
 
 - Android6.0采坑之旅
 
@@ -66,12 +66,6 @@
 3. 也是无聊
 
 - 任务栈，当启动一个系统级别的dialog时候，它存在与什么栈中呢？
-
-- 按返回键的时候，进程会杀死吗？ 任务栈又是怎样呢？
-
-- 一个应用start 另外一个应用的activity时，如果该activity需要上一个activity来初始化，会怎么样？
-
-- 根据包名卸载apk，，adb命令和dumpsys命令用法，aapt dump badging 
 
 **周一见**
 
