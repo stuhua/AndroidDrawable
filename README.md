@@ -71,7 +71,7 @@
 
 - 一个应用start 另外一个应用的activity时，如果该activity需要上一个activity来初始化，会怎么样？
 
-- 根据包名卸载apk，，adb命令和dumpsys命令用法
+- 根据包名卸载apk，，adb命令和dumpsys命令用法，aapt dump badging 
 
 **周一见**
 
