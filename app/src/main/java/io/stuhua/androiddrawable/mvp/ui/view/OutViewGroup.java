@@ -29,6 +29,12 @@ public class OutViewGroup extends LinearLayout {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        int widthSpaceSize = MeasureSpec.getSize(widthMeasureSpec);
+        int widthSpecMode = MeasureSpec.getMode(widthMeasureSpec);
+        int heightSpaceSize = MeasureSpec.getSize(heightMeasureSpec);
+        int heightSpecMode = MeasureSpec.getMode(heightMeasureSpec);
+        LogUtils.print("widthSpaceSize=" + widthSpaceSize + "...widthSpecMode=" + widthSpecMode + "heightSpaceSize=" + heightSpaceSize + "...heightSpecMode=" + heightSpecMode);
+        setMeasuredDimension(widthMeasureSpec, heightMeasureSpec);
         measureChildren(widthMeasureSpec, heightMeasureSpec);
     }
 
