@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <io.stuhua.androiddrawable.mvp.ui.view.OutViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ff0000"
+    android:orientation="vertical">
 
-    <io.stuhua.androiddrawable.mvp.ui.view.InnerListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"></io.stuhua.androiddrawable.mvp.ui.view.InnerListView>
+    <io.stuhua.androiddrawable.mvp.ui.view.InnerView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#5e5e5e"></io.stuhua.androiddrawable.mvp.ui.view.InnerView>
 
 </io.stuhua.androiddrawable.mvp.ui.view.OutViewGroup>
 

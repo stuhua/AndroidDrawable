@@ -5,6 +5,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import io.stuhua.androiddrawable.util.LogUtils;
 
@@ -12,7 +13,7 @@ import io.stuhua.androiddrawable.util.LogUtils;
  * Created by liulh on 2017/5/11 09:41 星期四
  */
 
-public class OutViewGroup extends ViewGroup {
+public class OutViewGroup extends LinearLayout {
     public OutViewGroup(Context context) {
         super(context);
     }
@@ -26,8 +27,16 @@ public class OutViewGroup extends ViewGroup {
     }
 
     @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        measureChildren(widthMeasureSpec, heightMeasureSpec);
+    }
+
+    @Override
     protected void onLayout(boolean b, int i, int i1, int i2, int i3) {
-        LogUtils.print("onLayout...");
+        int childCount = getChildCount();
+
+        LogUtils.print("onLayout...childCount=" + childCount);
     }
 
     @Override
@@ -59,6 +68,6 @@ public class OutViewGroup extends ViewGroup {
     public boolean onTouchEvent(MotionEvent event) {
         LogUtils.print("action=" + event.getAction());
         LogUtils.print("返回=" + super.onTouchEvent(event));
-        return true;
+        return super.onTouchEvent(event);
     }
 }
