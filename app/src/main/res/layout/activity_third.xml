@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.stuhua.androiddrawable.mvp.ui.view.OutViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <io.stuhua.androiddrawable.mvp.ui.view.InnerListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></io.stuhua.androiddrawable.mvp.ui.view.InnerListView>
+
+</io.stuhua.androiddrawable.mvp.ui.view.OutViewGroup>
+
+

@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Logger.d("onCreate");
+        initView();
     }
 
     private void initView() {
@@ -38,6 +39,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn1:
                 Intent intent = new Intent(this, SecondActivity.class);
                 startActivity(intent);
+                break;
+            case R.id.btn2:
+                Intent intent1 = new Intent(this, ThirdActivity.class);
+                startActivity(intent1);
                 break;
             default:
                 break;
