@@ -61,6 +61,10 @@
 
 - Shell 工具类
 
+- 布局优化
+
+- SparceArray
+
 1. 设置时区 ，ID不同了
 2. WIfI从数据库里获取不一样，getWifiList 为空，要等个几秒钟，
 3. 也是无聊
