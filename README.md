@@ -56,8 +56,6 @@
 
 - anim 目录下
 
-- binder,binder,binder
-
 - ContentObserver， ContentObserveable
 
 - Android6.0采坑之旅

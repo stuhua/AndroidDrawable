@@ -6,12 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.gson.Gson;
 import com.orhanobut.logger.Logger;
 
 import io.stuhua.androiddrawable.R;
+import io.stuhua.androiddrawable.mvp.presenter.AirConditioner1;
+import io.stuhua.androiddrawable.util.LogUtils;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button mBtn1, mBtn2;
+    private Gson mGson;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +23,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         Logger.d("onCreate");
         initView();
+        mGson = new Gson();
+        test();
+    }
+
+    public void test() {
+        AirConditioner1 airConditioner = mGson
+                .fromJson(
+                                "{\"focus\":\"airControl\",\"rawText\":\"空调升高10度\",\"operation\":\"SET\",\" temperature\":{\"direct\":\"+\",\"type\":\"SPOT\",\"offset\":\"10\",\"ref\":\"CUR\"}, \"device\":\"空调\" }",
+                        AirConditioner1.class);
+        LogUtils.print(airConditioner.getFocus()+"..."+airConditioner.getTemperature()+"");
     }
 
     private void initView() {
