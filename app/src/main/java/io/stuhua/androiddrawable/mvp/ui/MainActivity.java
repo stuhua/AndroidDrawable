@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void test() {
         AirConditioner1 airConditioner = mGson
                 .fromJson(
-                                "{\"focus\":\"airControl\",\"rawText\":\"空调升高10度\",\"operation\":\"SET\",\" temperature\":{\"direct\":\"+\",\"type\":\"SPOT\",\"offset\":\"10\",\"ref\":\"CUR\"}, \"device\":\"空调\" }",
+                                "{\"focus\":\"airControl\",\"rawText\":\"空调升高10度\",\"operation\":\"SET\",\"temperature\":\"1\", \"device\":\"空调\" }",
                         AirConditioner1.class);
         LogUtils.print(airConditioner.getFocus()+"..."+airConditioner.getTemperature()+"");
     }
